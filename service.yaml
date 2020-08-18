@@ -44,9 +44,6 @@ paths:
             application/json:
               schema:
                 $ref: 'https://demo.kgrid.org/schemas/basicerror.yaml'
-          type: object
-          additionalProperties:
-            type: object
 components:
   schemas:
     input:
@@ -55,7 +52,7 @@ components:
         - sex
       properties:
         age:
-          type: int
+          type: integer
           x-kgrid-label: Please enter your age
           x-kgrid-unit: 0
           example: 25
@@ -72,3 +69,4 @@ components:
         - result
       properties:
         result:
+          type: array
