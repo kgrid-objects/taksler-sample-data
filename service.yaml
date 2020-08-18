@@ -51,8 +51,22 @@ components:
   schemas:
     input:
       required:
+        - age
+        - sex
       properties:
-        language:
+        age:
+          type: int
+          x-kgrid-label: Please enter your age
+          x-kgrid-unit: 0
+          example: 25
+        sex:
+          type: string
+          enum:
+            - Female
+            - Male
+          x-kgrid-label: Please select your sex at birth
+          x-kgrid-unit: ''
+          example: Female
     output:
       required:
         - result
