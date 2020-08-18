@@ -1,0 +1,11 @@
+{
+  "@id" : "taksler-sample",
+  "@type" : "koio:KnowledgeObject",
+  "title" : "Mock data for takslerR01",
+  "identifier" : "ark:/taksler/sample",
+  "version" : "v1.0",
+  "hasServiceSpecification" : "service.yaml",
+  "hasDeploymentSpecification" : "deployment.yaml",
+  "hasPayload" : "src/index.js",
+  "@context" : [ "http://kgrid.org/koio/contexts/knowledgeobject.jsonld" ]
+}
