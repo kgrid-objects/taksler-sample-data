@@ -47,3 +47,14 @@ paths:
           type: object
           additionalProperties:
             type: object
+components:
+  schemas:
+    input:
+      required:
+      properties:
+        language:
+    output:
+      required:
+        - result
+      properties:
+        result:
