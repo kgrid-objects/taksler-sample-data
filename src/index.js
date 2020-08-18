@@ -1,5 +1,5 @@
 function getData(inputs){
-  return [{value: 9.5,
+  return JSON.stringify([{value: 9.5,
     title: 'Do all preventative measures',
     difficulty: 'HARD',
     description: 'Do everything  your doctor  tells you to do'},
@@ -43,6 +43,6 @@ function getData(inputs){
       title: 'Comb your hair',
       difficulty: 'HARD',
       description: 'the direction is very important'}
-  ]
+  ])
 }
 
