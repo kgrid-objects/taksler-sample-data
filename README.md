@@ -1,1 +1,0 @@
-# taksler-sample-data
