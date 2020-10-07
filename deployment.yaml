@@ -1,6 +1,5 @@
-endpoints:
-  /getData:
-    post:
-      artifact: src/index.js
-      engine: javascript
-      function: getData
+/getData:
+  post:
+    artifact: src/index.js
+    engine: javascript
+    function: getData
