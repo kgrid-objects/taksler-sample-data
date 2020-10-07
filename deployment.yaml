@@ -1,5 +1,6 @@
 endpoints:
   /getData:
-    artifact: src/index.js
-    adapter: JAVASCRIPT
-    function: getData
+    post:
+      artifact: src/index.js
+      engine: javascript
+      function: getData
